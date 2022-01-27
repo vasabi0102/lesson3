@@ -1,0 +1,65 @@
+/*------------------- NULL--------------- */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+/*------------------------------------------*/
+
+body {
+   background-color: #708090;
+}
+h1 {
+   color: rgb(16, 201, 214);
+}
+header span {
+   color: red;
+}
+.link {
+   color: sienna;
+}
+.name h2 {
+   color: #ffff00;
+}
+.name span {
+   color: #00ffff;
+}
+.hestory h2 {
+   color: #ff7f50;
+}
+.hestory h3 {
+   color: blueviolet;
+}
+.inventory span {
+   color: chartreuse;
+}
+.team h2 {
+   color: rgb(49, 11, 184);
+}
+.team li {
+   color: rgb(139, 0, 0);
+}
